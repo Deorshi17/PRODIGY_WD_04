@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deorshi - Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&
+    display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 34);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(17, 17, 66);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(153, 153, 224);
+        font-size: 1.02rem;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+
+      .left {
+        font-size: 1.6rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 120px 0;
+      }
+
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 3rem;
+      }
+      .letSection .buttons{
+        padding: 50px 0;
+      }
+
+      .leftSection .btn {
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+
+      }
+
+      .rightSection img {
+        width: 85%;
+      }
+      .purple {
+        color: rgb(140, 88, 189);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(140, 88, 189);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 85vh;
+      }
+
+      .secondsection h1 {
+        font-size: 1.9rem;
+      }
+
+      .secondsection .box {
+        background: white;
+        width: 74vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+
+      .image-top {
+        width: 35px;
+        position: relative;
+        top: -40px;
+        left: -9px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 13px;
+      }
+      footer{
+        background-color: #0e0e1a;
+      }
+      .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+
+      .footer ul{
+        list-style: none;
+      }
+
+      .footer>div{
+        width: 223px
+      }
+      footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Deorshi's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Deorshi</span>
+
+          <div>& I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Professional Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html img.png" alt="" />
+            <div class="vertical-title">HTML Developer</div>
+            <div class="vertical-desc">
+              As an HTML Developer, I specialize in creating well-structured and
+              semantic web pages that form the backbone of engaging and
+              user-friendly websites. With a keen eye for detail and a
+              commitment to best practices, I craft clean, efficient HTML code
+              that integrates seamlessly with CSS and JavaScript to deliver
+              responsive and interactive user interfaces.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="nodejs img.png" alt="" />
+            <div class="vertical-title">Node.Js Developer</div>
+            <div class="vertical-desc">
+              As a Node.js Developer, I specialize in building robust and
+              scalable server-side applications. With experience in developing
+              RESTful APIs and real-time applications, I utilize the power of
+              Node.js and Express to create efficient and maintainable backend
+              systems. By leveraging Node.js, I ensure seamless performance and
+              scalability in web applications, adhering to best practices and
+              industry standards.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="front.png" alt="" />
+            <div class="vertical-title">Frontend Developer</div>
+            <div class="vertical-desc">
+              As a Frontend Developer, I excel in creating dynamic and
+              responsive web applications that provide a seamless user
+              experience. I have hands-on experience with modern JavaScript
+              frameworks like React and Vue.js, which I used to develop and
+              deploy interactive and efficient web projects. My expertise
+              includes writing clean and maintainable code, implementing
+              responsive design principles, and ensuring cross-browser
+              compatibility.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="mdb.png" alt="" />
+            <div class="vertical-title">Backend Developer</div>
+            <div class="vertical-desc">
+              As a Backend Developer, I am proficient in creating robust and
+              scalable server-side applications. My experience includes
+              developing and maintaining APIs, managing databases, and ensuring
+              seamless communication between the server and client-side
+              applications.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="wdes.png" alt="" />
+            <div class="vertical-title">Web Designer</div>
+            <div class="vertical-desc">
+              My experience includes designing responsive layouts that enhance
+              user experience across various devices. I excel in using design
+              tools like Adobe XD & Figma.By staying updated with the latest
+              design trends and best practices, I aim to deliver aesthetically
+              pleasing and intuitive web designs that meet client needs and
+              improve user engagement.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="gd.png" alt="" />
+            <div class="vertical-title">Graphic Designer</div>
+            <div class="vertical-desc">
+              My experience includes designing visually appealing graphics for
+              both digital and print media. I am proficient in using design
+              software such as Adobe Photoshop. My design philosophy centers on
+              understanding client needs and translating them into compelling
+              visual solutions that effectively communicate their brand message.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="ve.png" alt="" />
+            <div class="vertical-title">Video Editor</div>
+            <div class="vertical-desc">
+              I am proficient in using industry-standard software like Adobe
+              Premiere Pro and Final Cut Pro to edit and enhance video footage.
+              My skills include cutting and assembling raw footage, adding
+              effects and transitions, color correction, and sound editing to
+              produce polished final videos.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+<div class="footer">
+    <div class="footer-first">
+        <h3>Deorshi's Developer Portfolio</h3>
+    </div>
+    <div class="footer-second">
+<ul>
+  <li>Home</li>
+  <li>About</li>
+  <li>Services</li>
+  <li>Contact</li>
+  </ul>
+    </div>
+    <div class="footer-third">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+        </ul>
+    </div>
+    <div class="footer-fourth">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+        </ul>
+    </div>
+</div>
+<div class="footer-rights">
+  Coyright &#169; www.deorshisportfolio.com | All rights reserved
+</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Web Designer",
+          "Video Editor",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
